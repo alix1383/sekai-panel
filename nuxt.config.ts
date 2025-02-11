@@ -11,6 +11,9 @@ export default defineNuxtConfig({
     inject: true,
     format: ["webp"],
     quality: 80,
+    cloudflare: {
+      baseURL: "https://sekai-panel.ali-x.ir",
+    },
   },
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/i18n", "@nuxt/image"],
 });
