@@ -4,10 +4,11 @@
   >
     <div class="flex items-center">
       <NuxtImg
-        src="img/profile.png"
+        src="/img/profile.png"
         alt="User Profile"
         height="64"
         class="rounded-full"
+        provider="cloudflare"
       />
       <p :title="userName" class="truncate ml-1">{{ userName }}</p>
     </div>
