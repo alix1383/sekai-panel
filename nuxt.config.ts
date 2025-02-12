@@ -7,10 +7,17 @@ export default defineNuxtConfig({
   //   defaultLocale: "en",
   //   langDir: "lang",
   // },
+  $production: {
+    image: {
+      provider: "cloudflare",
+    },
+  },
+
   image: {
-    inject: true,
+    inject: false,
     format: ["webp"],
     quality: 80,
+
     cloudflare: {
       baseURL: "https://sekai-panel.ali-x.ir",
     },

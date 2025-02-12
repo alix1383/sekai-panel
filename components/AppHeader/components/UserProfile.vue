@@ -8,7 +8,6 @@
         alt="User Profile"
         height="64"
         class="rounded-full"
-        provider="cloudflare"
       />
       <p :title="userName" class="truncate ml-1">{{ userName }}</p>
     </div>
