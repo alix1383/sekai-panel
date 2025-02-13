@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex gap-1 mt-2 flex-col w-full max-w-72">
+  <nav class="flex gap-2 flex-col w-full max-w-72">
     <Top />
     <Bottom />
   </nav>

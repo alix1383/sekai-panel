@@ -1,6 +1,6 @@
 <template>
   <AppHeader />
-  <main class="flex">
+  <main class="flex mt-2 gap-5">
     <AppNavbar />
     <slot />
   </main>

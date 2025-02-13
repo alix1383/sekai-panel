@@ -5,14 +5,14 @@
     <div class="flex items-center justify-between">
       <div class="font-semibold">My Balance</div>
       <div
-        class="flex items-center bg-base-100 rounded-full p-3 justify-center"
+        class="flex items-center bg-base-100 shadow-sm rounded-full p-3 justify-center"
       >
         <Balance />
       </div>
     </div>
     <div class="text-3xl">
       200,000
-      <span class="ml-0.5 text-xs text-gray-500">USD</span>
+      <span class="ml-0.5 text-xs font-thin">USD</span>
     </div>
   </div>
 </template>
