@@ -3,7 +3,7 @@
     class="rounded-badge border-2 hover:shadow-xl transition-shadow border-base-200"
   >
     <div
-      class="bg-base-200 flex items-center flex-col rounded-badge px-1 py-3 border-2 border-base-200"
+      class="bg-base-200 flex items-center flex-col rounded-[25px] px-1 py-3 border-2 border-base-200"
     >
       <Balance />
       <Progress />

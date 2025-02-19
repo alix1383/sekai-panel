@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "sekai-panel",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,7 +13,9 @@
     "@nuxt/image": "^1.9.0",
     "@nuxtjs/i18n": "^9.2.0",
     "@nuxtjs/tailwindcss": "^6.13.1",
+    "echarts": "^5.5.1",
     "nuxt": "^3.15.4",
+    "nuxt-echarts": "0.2.4",
     "vue": "latest",
     "vue-router": "latest"
   },

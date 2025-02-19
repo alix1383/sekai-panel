@@ -1,11 +1,10 @@
 <template>
-  <div class="flex flex-col w-full h-full">
-    <!-- <TopSide />
-    <BottomSide /> -->
+  <div class="flex w-full h-full">
+    <MiddleSection />
+    <!-- {{ $t("hello_world.test") }} -->
   </div>
 </template>
 
 <script lang="ts" setup>
-import BottomSide from "~/components/pages/index/BottomSide.vue";
-import TopSide from "~/components/pages/index/TopSide.vue";
+import MiddleSection from "~/components/pages/index/MiddleSection.vue";
 </script>

@@ -17,7 +17,7 @@
         v-for="(item, index) in listItems"
         v-on:mouseenter="isActive = index"
         v-on:mouseleave="isActive = -1"
-        class="transition-all hover:bg-base-100 my-1 flex flex-col text-sm font-thin hover:rounded-badge hover:px-3 p-1 hover:shadow-lg"
+        class="transition-all hover:bg-base-100 my-1 flex flex-col text-sm font-light hover:rounded-badge hover:px-3 p-1 hover:shadow-lg"
       >
         <!--  -->
         <div class="flex items-center gap-3">
@@ -42,6 +42,7 @@ const isActive = ref(-1);
 import Bookmark from "~/components/icons/Bookmark.vue";
 import Gifts from "~/components/icons/Gifts.vue";
 import Stats from "~/components/icons/Stats.vue";
+import Support from "~/components/icons/Support.vue";
 import Tasks from "~/components/icons/Tasks.vue";
 
 const listItems = [
@@ -49,6 +50,6 @@ const listItems = [
   { name: "Gifts", icon: Gifts },
   { name: "BookMarks", icon: Bookmark },
   { name: "Stats", icon: Stats },
-  { name: "Stats", icon: Stats },
+  { name: "Support", icon: Support },
 ];
 </script>

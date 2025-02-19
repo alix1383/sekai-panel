@@ -2,11 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
-  // i18n: {
-  //   locales: [{ code: "en", language: "en-US" }],
-  //   defaultLocale: "en",
-  //   langDir: "lang",
-  // },
+  i18n: {
+    locales: [{ code: "en", language: "en-US", file: "en.json" }],
+    defaultLocale: "en",
+  },
   $production: {
     image: {
       provider: "cloudflare",
@@ -14,7 +13,7 @@ export default defineNuxtConfig({
   },
 
   image: {
-    inject: false,
+    inject: true,
     format: ["webp"],
     quality: 80,
 

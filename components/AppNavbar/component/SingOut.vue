@@ -10,7 +10,7 @@
       class="border-2 w-9 h-9 rounded-full transition-all border-black border-l-transparent border-b-transparent"
       :class="[hover ? 'rotate-[225deg]' : 'rotate-45']"
     ></div>
-    <p class="font-thin">Sing out</p>
+    <p class="font-light">Sing out</p>
   </div>
 </template>
 

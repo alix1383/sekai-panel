@@ -7,7 +7,7 @@
         src="/img/profile.png"
         :alt="`${userName} Profile`"
         height="64"
-        class="rounded-full hover:rounded"
+        class="rounded-full shadow hover:rounded"
       />
       <p :title="userName" class="truncate ml-1">{{ userName }}</p>
     </div>
